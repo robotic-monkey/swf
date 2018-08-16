@@ -9,6 +9,7 @@
     "papaparse": "^4.6.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-graceful-image": "^1.2.9",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "react-select": "^2.0.0",
