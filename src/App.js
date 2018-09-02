@@ -5,6 +5,9 @@ import DataParser from "./components/DataParser"
 import {connect} from 'react-redux';
 import Image from 'react-graceful-image'
 
+
+
+
 class App extends Component {
   constructor(props) {
     super(props)
