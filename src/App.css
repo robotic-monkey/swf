@@ -50,6 +50,12 @@
   margin-bottom: 10px;
 }
 
+#date{
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #zone1{
   position: absolute;
   height: 50px;
@@ -131,6 +137,8 @@
   width: 130px;
  
 }
+
+
 
 li{
     

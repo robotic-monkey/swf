@@ -20,8 +20,9 @@ class App extends Component {
 
         <div  id="app-holder">
           <DataParser></DataParser>
+          
           <div className="map-container">
-
+         
             <div className="zone-holder" id="zone1">{this
                 .props
                 .output
