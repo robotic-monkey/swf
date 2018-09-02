@@ -34,15 +34,15 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 13 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "75k with synergy" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "70k with synergy" })
         }
 
         if (index === 15 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "75k with synergy" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "70k with synergy" })
         }
 
         if (index === 17 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Phoenix no Ezra" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Bounty Hunters" })
         }
 
         if (index === 19 && sel[index].includes("X")) {
