@@ -22,7 +22,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 7 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "2nd team Sith/Empire" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Revan" })
         }
 
         if (index === 9 && sel[index].includes("X")) {
@@ -30,7 +30,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 11 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS + Nest" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Nightsisters" })
         }
 
         if (index === 13 && sel[index].includes("X")) {
@@ -46,7 +46,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 19 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi - no Revan" })
         }
 
         if (index === 21 && sel[index].includes("X")) {
