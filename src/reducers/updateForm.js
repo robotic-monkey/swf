@@ -30,15 +30,15 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 11 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Nightsisters" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS + Nest (only use Nest if geared)" })
         }
 
         if (index === 13 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "70k with synergy" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "77k with synergy" })
         }
 
         if (index === 15 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "70k with synergy" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "77k with synergy" })
         }
 
         if (index === 17 && sel[index].includes("X")) {
@@ -46,7 +46,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 19 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi - no Revan" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Bastila L" })
         }
 
         if (index === 21 && sel[index].includes("X")) {
