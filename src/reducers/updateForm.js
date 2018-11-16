@@ -14,7 +14,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 3 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "CLS with Chaze" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "CLS" })
         }
 
         if (index === 5 && sel[index].includes("X")) {
@@ -30,7 +30,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 11 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS + Nest (only use Nest if geared)" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS + Nest" })
         }
 
         if (index === 13 && sel[index].includes("X")) {
