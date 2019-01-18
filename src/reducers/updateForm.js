@@ -14,11 +14,11 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 3 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "CLS with tank" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "CLS" })
         }
 
         if (index === 5 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "RJT with tank" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Imperial Troopers" })
         }
 
         if (index === 7 && sel[index].includes("X")) {
@@ -26,7 +26,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 9 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "EP or Traya L" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "RJT" })
         }
 
         if (index === 11 && sel[index].includes("X")) {
@@ -34,7 +34,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 13 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "77k with synergy" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Scoundrels" })
         }
 
         if (index === 15 && sel[index].includes("X")) {
