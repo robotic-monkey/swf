@@ -61,7 +61,7 @@ class DataParser extends Component {
     render() {
        // console.log(this.state.data +"####")
         // return <div><Searcher datar={this.state.data} ></Searcher></div>
-        return <div className="selector"> <div id="instructions">Enter player name:</div><Selector datar={this.state.data}></Selector><div id="date">last updated 01/31/2019</div></div>
+        return <div className="selector"> <div id="instructions">Enter player name:</div><Selector datar={this.state.data}></Selector><div id="date">For 02/12/19 TW</div></div>
     }
 }
 export default DataParser;

@@ -18,11 +18,11 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 5 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Imp Troopers" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Traya L" })
         }
 
         if (index === 7 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Revan" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi" })
         }
 
         if (index === 9 && sel[index].includes("X")) {
@@ -42,7 +42,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 17 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Bounty Hunters" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "BH + Nest" })
         }
 
         if (index === 19 && sel[index].includes("X")) {
