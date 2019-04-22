@@ -34,7 +34,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 13 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Scoundrels" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Scoundrels and/or OR" })
         }
 
         if (index === 15 && sel[index].includes("X")) {
