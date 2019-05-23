@@ -5,7 +5,7 @@ import Selector from './Select'
 
 let dataArray = []
 
-class DataParser extends Component {
+class DataParserDOTE extends Component {
 
     constructor(props) {
         // Call super class
@@ -23,7 +23,7 @@ class DataParser extends Component {
     componentWillMount() {
 
         // Your parse code, but not seperated in a function
-        var csvFilePath = require("../defense.csv");
+        var csvFilePath = require("../defense2.csv");
 
         Papa.parse(csvFilePath, {
             header: false,
@@ -61,7 +61,7 @@ class DataParser extends Component {
     render() {
        // console.log(this.state.data +"####")
         // return <div><Searcher datar={this.state.data} ></Searcher></div>
-        return <div className="selector"> <div id="instructions">Enter player name:</div><Selector datar={this.state.data}></Selector><div id="date">For 05/21/19 TW</div></div>
+        return <div className="selector"> <div id="instructions">Enter player name:</div><Selector datar={this.state.data}></Selector><div id="date">For 05/21/19 DotE TW</div></div>
     }
 }
-export default DataParser;
+export default DataParserDOTE;

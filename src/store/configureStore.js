@@ -1,14 +1,15 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import MagicFormReducer from '../reducers/updateForm';
-
+import MagicFormReducerSWF from '../reducers/updateFormSWF';
+import MagicFormReducerDOTE from '../reducers/updateFormDOTE';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export default () => {
   const store = createStore(
     combineReducers({
-      magicform: MagicFormReducer
+      magicformSWF: MagicFormReducerSWF,
+      magicformDOTE: MagicFormReducerDOTE
     }),
     composeEnhancers(applyMiddleware(thunk))
   );
