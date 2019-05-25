@@ -10,39 +10,39 @@ export default (state = testerReducerDefaultState, action) => {
     const selectionArray = [];
     sel.forEach(el => {
         if (index === 1 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "KRUUU L" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "DR Malak" })
         }
 
         if (index === 3 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "CLS" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Qira" })
         }
 
         if (index === 5 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Traya + BSF (if geared and no Dre)" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Padme" })
         }
 
         if (index === 7 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS w/Spirit" })
         }
 
         if (index === 9 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "RJT" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "JKR" })
         }
 
         if (index === 11 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS + Nest" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "GG Droids" })
         }
 
         if (index === 13 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Scoundrels and/or OR" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "BH" })
         }
 
         if (index === 15 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Miscellaneous" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Kru Zarriss" })
         }
 
         if (index === 17 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "BH + Nest" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Carth" })
         }
 
         if (index === 19 && sel[index].includes("X")) {
