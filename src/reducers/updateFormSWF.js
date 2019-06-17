@@ -18,11 +18,11 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 5 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Traya + BSF (if geared and no Dre)" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Traya" })
         }
 
         if (index === 7 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Jedi (ideally JKR)" })
         }
 
         if (index === 9 && sel[index].includes("X")) {
