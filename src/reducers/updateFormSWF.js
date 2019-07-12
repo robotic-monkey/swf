@@ -30,7 +30,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 11 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS + Nest" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "NS, no Nest" })
         }
 
         if (index === 13 && sel[index].includes("X")) {
@@ -56,7 +56,6 @@ export default (state = testerReducerDefaultState, action) => {
        
         index++;
     }); 
-      console.log(selectionArray)
       return { playerData: selectionArray };
     case 'UPDATE_NOTE':
      // console.log(action.input);
