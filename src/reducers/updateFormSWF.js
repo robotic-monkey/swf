@@ -10,7 +10,7 @@ export default (state = testerReducerDefaultState, action) => {
     const selectionArray = [];
     sel.forEach(el => {
         if (index === 1 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "KRU L" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Geos" })
         }
 
         if (index === 3 && sel[index].includes("X")) {
