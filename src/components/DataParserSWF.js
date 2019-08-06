@@ -61,7 +61,7 @@ class DataParserSWF extends Component {
     render() {
        // console.log(this.state.data +"####")
         // return <div><Searcher datar={this.state.data} ></Searcher></div>
-        return <div className="selector"> <div id="instructions">Enter player name:</div><Selector datar={this.state.data}></Selector><div id="date">For 07/27/19 SWF TW</div></div>
+        return <div className="selector"> <div id="instructions">Enter player name:</div><Selector datar={this.state.data}></Selector><div id="date">For 08/07/19 SWF TW</div></div>
     }
 }
 export default DataParserSWF;
