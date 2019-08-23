@@ -50,7 +50,7 @@ export default (state = testerReducerDefaultState, action) => {
         }
 
         if (index === 21 && sel[index].includes("X")) {
-          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "Fleet" })
+          selectionArray.push({slot:sel[index+1].slice(1), code:sel[index],team: "2nd Best Fleet" })
         }
 
        
