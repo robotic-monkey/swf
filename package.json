@@ -6,7 +6,7 @@
     "@material-ui/core": "^1.4.2",
     "downshift": "^2.0.20",
     "keycode": "^2.2.0",
-    "papaparse": "^4.6.0",
+    "papaparse": "^5.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-graceful-image": "^1.2.9",
